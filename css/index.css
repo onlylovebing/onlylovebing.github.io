@@ -9,73 +9,161 @@ html{
 
 .box{
     width: 100%;
-    height: 100%;
-}
-.head{
-    width: 100%;
-    height: 80px;
-}
-
-.userBing{
-    font-family: 方正粗雅宋_GBK;
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    background: #62d26d;
-}
-
-.con{
-    width: 100%;
-    position: relative;
-}
-
-.img{
-    width: 100%;  position: relative; overflow: hidden;
-}
-.img ul{
-    width: 500%;
-}
-.img ul li{
-    width: 20%;
     float: left;
-    height: 400px;
+    background: url("../img/bg.jpg") repeat;
 }
-.img ul li img{
-    display: block;
-    width: 100%;
-}
-.dian{
-    position: absolute;
-    width: 300px;
-    left: 50%;
-    margin-left: -150px;
-    bottom: 20px;
-    z-index: 10;
-}
-.dian ol{
-    width: 150px;
-    margin: 0 auto;
-}
-.dian ol li{
-    width: 20px; height: 20px;
-    border-radius: 10px;
-    background: #999;
-    float: left;
-    margin-right: 10px;
-}
-.dian ol li.hh{
+
+.wrap{
+    width: 1200px;
+    height: 1200px;
+    margin: 20px auto;
     background: white;
 }
-#left{
-    position: absolute;
-    left: 20px; top: 180px;
-    display: none;
+
+.left{
+    width: 300px;
+    height: 1200px;
+    background: #ffc301;
+    float: left;
 }
-#right{
+.left .pics{
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+.left .pics img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     position: absolute;
-    right: 20px; top: 180px;
-    display: none;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+}
+
+
+
+
+.RESUME{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #242a2a;
+    color: white;
+}
+.SOCLAL{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #242a2a;
+    color: white;
+    clear: both;
+}
+.SKILLS{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #242a2a;
+    color: white;
+    clear: both;
+}
+.zaiyao{
+    width: 300px;
+    height: 220px;
+    float: left;
+    background: red;
+}
+.zaiyao h2{
+    color: #253822;
+    margin: 15px 25px;
+    font-size: 24px;
+}
+.zaiyao ul{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.zaiyao ul li{
+    display: block;
+    height: 40px;
+    border-bottom: 3px solid #1f1422;
+    line-height: 40px;
+    font-size: 20px;
+}
+.zaiyao ul li span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.right{
+    width: 750px;
+    height: 800px;
+    float: left;
+    margin-left: 150px;
+
+}
+
+.userName{
+    width: 750px;
+    height: 220px;
+    background: #24292c;
+    position: relative;
+}
+.userName img{
+    display: block;
+    margin: 0 auto;
+}
+.userName h2{
+    position: absolute;
+    font-size: 25px;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 62px;
+    color: white;
+}
+.userName h3{
+    position: absolute;
+    font-size: 20px;
+    left: 50%;
+    margin-left: -60px;
+    color: white;
+}
+.PROFILE{
+    width: 750px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: #242a2a;
+    color: white;
+    clear: both;
+    margin-top: 30px;
+}
+.EDUCATION{
+    width: 750px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: #242a2a;
+    color: white;
+    clear: both;
+}
+.WORK{
+    width: 750px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: #242a2a;
+    color: white;
+    clear: both;
+}
+.cen{
+    width: 750px;
+    height: 250px;
 }
