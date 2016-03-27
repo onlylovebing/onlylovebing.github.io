@@ -15,14 +15,14 @@ html{
 
 .wrap{
     width: 1200px;
-    height: 1200px;
+    height: 1000px;
     margin: 20px auto;
     background: white;
 }
 
 .left{
     width: 300px;
-    height: 1200px;
+    height: 1000px;
     background: #ffc301;
     float: left;
 }
@@ -76,7 +76,6 @@ html{
     width: 300px;
     height: 220px;
     float: left;
-    background: red;
 }
 .zaiyao h2{
     color: #253822;
@@ -97,6 +96,32 @@ html{
 .zaiyao ul li span{
     font-size: 20px;
     margin-left: 5px;
+}
+.zaiyao ol{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.zaiyao ol li{
+    display: block;
+    height: 60px;
+    border-bottom: 3px solid #1f1422;
+    line-height: 60px;
+    font-size: 20px;
+}
+.zaiyao ol li span{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.zaiyao p{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 3px solid #1f1422;
+    font-size: 20px;
+}
+.zaiyao p:nth-of-type(1){
+    margin-top: 10px;
 }
 
 .right{
@@ -165,5 +190,41 @@ html{
 }
 .cen{
     width: 750px;
-    height: 250px;
+    height: 200px;
+}
+.cen ul li{
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    padding-left: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.cen ul li:nth-of-type(3){
+    border-bottom: none;
+}
+.cen ul li a{
+    float: right;
+    padding-right: 40px;
+    font-size: 18px;
+    color: cadetblue;
+}
+.cen ul li b{
+    font-size: 25px;
+    font-weight: 800;
+}
+.cen p{
+    height: 50px;
+    border-bottom: 2px solid #ccc;
+    line-height: 50px;
+    font-size: 20px;
+    color: #666;
+}
+.cen p b{
+    font-size: 22px;
+    font-weight: 800;
+    padding-left: 10px;
+    color: #000;
+}
+.cen p:nth-of-type(4){
+    border-bottom: none;
 }
