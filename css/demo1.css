@@ -1,6 +1,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    background: dodgerblue;
 }
 
 html{
@@ -9,8 +10,6 @@ html{
 
 .wrap{
     width: 100%;
-    height: 100%;
-    background: dodgerblue;
 }
 
 .head{
@@ -27,6 +26,7 @@ html{
 .huo{
     width: 100%;
     height: 150px;
+    margin-top: 20px;
     display: -webkit-box;
     -webkit-box-pack:justify;
 }
@@ -38,4 +38,33 @@ html{
     width: 100px;
     height: 150px;
     margin: 0 auto;
+}
+
+.psu{
+    width: 100%;
+}
+.psu img{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.psu1{
+    width: 100%;
+}
+.psu1 img{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button{
+    display: block;
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px;
+    color: #ffc301;
+    background: aqua;
 }
